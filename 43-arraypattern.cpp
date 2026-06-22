@@ -1,15 +1,17 @@
+
 #include<iostream>
 
 using namespace std;
 
-
 int main(){
-    int arr[5] = {1,2,5,4,8};
+    int arr[5] = {3,13,12,7,4};
 
     for(int i = 0 ; i<5 ; i++){
-        for(int i = 0 ; i<5 ;i++){
-            cout<<arr[i]<<" ";
+        for(int j = i ; j<5 ; j++){
+            cout<<arr[j]<<" ";
         }
         cout<<endl;
     }
+
+
 }
