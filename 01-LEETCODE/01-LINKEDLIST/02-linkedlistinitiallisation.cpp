@@ -15,37 +15,6 @@ class Node{
 };
 
 int main(){
-    // Node* n1 = new Node();
-    // Node n2(5);
-    // // n2.val = 5;
-    // Node* ptr2= &n2;
-
-
-    // Node n1(91);
-    // // n1.val = 91;
-    // Node* ptr1 = &n1;
-    // n1.next = ptr2;
-
-    // cout<<(*ptr2).val<<endl;
-    // cout<<ptr2->val;
-    // cout<<(*n1.next).val;
-
-    // Node n1(5);
-    // Node n2(6);
-
-    // n1.next = &n2;
-
-    // // cout<<(*n1.next).val;
-
-    // Node* ptr = new Node(10);
-    // Node* ptr1 = new Node(20);
-
-    // cout<<(*ptr).val;
-    // ptr->next = ptr1;
-
-    // (*ptr).next = ptr1;
-
-    // cout<<(*ptr).next->val;
 
 
     Node a(10);
@@ -80,3 +49,38 @@ int main(){
     
 
 }
+
+
+
+
+    // Node* n1 = new Node();
+    // Node n2(5);
+    // // n2.val = 5;
+    // Node* ptr2= &n2;
+
+
+    // Node n1(91);
+    // // n1.val = 91;
+    // Node* ptr1 = &n1;
+    // n1.next = ptr2;
+
+    // cout<<(*ptr2).val<<endl;
+    // cout<<ptr2->val;
+    // cout<<(*n1.next).val;
+
+    // Node n1(5);
+    // Node n2(6);
+
+    // n1.next = &n2;
+
+    // // cout<<(*n1.next).val;
+
+    // Node* ptr = new Node(10);
+    // Node* ptr1 = new Node(20);
+
+    // cout<<(*ptr).val;
+    // ptr->next = ptr1;
+
+    // (*ptr).next = ptr1;
+
+    // cout<<(*ptr).next->val;
